@@ -4,7 +4,7 @@
 5 -> 2, 4
 8 -> 2, 4, 6, 8
 */
-
+/*
 Console.Write("Введите число (только не вводи 1): ");
 int i = Convert.ToInt32(Console.ReadLine());
 
@@ -16,4 +16,18 @@ for (int x = 2; x <= i; x++)
 if (i == 1)
 {
     Console.WriteLine ("А я предупреждала!");
+}
+*/
+
+Console.Clear();
+Console.Write("Введите число: ");
+int n = Convert.ToInt32(Console.ReadLine());
+int i = 1;
+while (i <=n)
+{
+    if (i%2 == 0)
+    {
+    Console.Write($"{i} ");
+    } 
+    i++;
 }
